@@ -5,13 +5,7 @@ import { CommonModule } from '@angular/common';
   selector: 'app-dashboard',
   standalone: true,
   imports: [CommonModule],
-  template: `
-    <p>
-      dashboard works!
-    </p>
-  `,
-  styleUrls: ['./dashboard.component.css']
+  template: ` <p>Yay I have a dashboard!</p> `,
+  styleUrls: ['./dashboard.component.css'],
 })
-export class DashboardComponent {
-
-}
+export class DashboardComponent {}
